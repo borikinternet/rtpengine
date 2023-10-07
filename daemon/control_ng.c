@@ -37,12 +37,12 @@ const char magic_load_limit_strings[__LOAD_LIMIT_MAX][64] = {
 };
 const char *ng_command_strings[NGC_COUNT] = {
 	"ping", "offer", "answer", "delete", "query", "list",
-	"start recording", "stop recording", "pause recording",
-	"start forwarding", "stop forwarding", "block DTMF",
-	"unblock DTMF", "block media", "unblock media", "play media", "stop media",
-	"play DTMF", "statistics", "silence media", "unsilence media",
-	"publish", "subscribe request",
-	"subscribe answer", "unsubscribe",
+	"start_recording", "stop_recording", "pause_recording",
+	"start_forwarding", "stop_forwarding", "block_DTMF",
+	"unblock_DTMF", "block_media", "unblock_media", "play_media", "stop_media",
+	"play_DTMF", "statistics", "silence_media", "unsilence_media",
+	"publish", "subscribe_request",
+	"subscribe_answer", "unsubscribe",
 };
 const char *ng_command_strings_short[NGC_COUNT] = {
 	"Ping", "Offer", "Answer", "Delete", "Query", "List",
